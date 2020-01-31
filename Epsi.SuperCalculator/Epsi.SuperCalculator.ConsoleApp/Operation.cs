@@ -1,12 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Epsi.SuperCalculator.ConsoleApp
+namespace UnitTestSuperCalculator
 {
-    class Operation
+    public class Operation
     {
+        public Operation()
+        {
+        }
+
+        public int soustraction(int v1, int v2)
+        {
+            return v1 - v2;
+        }
+
+        public int addition(int v1, int v2)
+        {
+            return v1 + v2;
+        }
     }
 }

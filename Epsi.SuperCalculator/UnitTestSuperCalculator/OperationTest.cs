@@ -15,17 +15,20 @@ namespace UnitTestSuperCalculator
             var operation = new Operation();
 
 
-            int resultat = operation.getResult("10-5");
+            int resultat = operation.soustraction(10,5);
             int excepted = 5;
 
             Check.That(resultat).Equals(excepted);
-            public void TestAddition()
-            {
-                var op = new Operation();
-                var result = operation.addition(1, 3);
-                const int expected = 4;
-                Check.That(result).Equals(expected);
-            }
+
+        }
+
+        [TestMethod]
+        public void TestAddition()
+        {
+            var op = new Operation();
+            var result = op.addition(1, 3);
+            const int expected = 4;
+            Check.That(result).Equals(expected);
         }
     }
 }
