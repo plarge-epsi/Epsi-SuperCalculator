@@ -10,7 +10,9 @@ namespace Epsi.SuperCalculator.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Loul");
+            string chaine = Console.ReadLine();
+            //int r = Operation.getResult(chaine);
+            //Console.Write(Logger.Write(r));
         }
     }
 }

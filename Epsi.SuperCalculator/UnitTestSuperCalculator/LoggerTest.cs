@@ -6,7 +6,7 @@ namespace UnitTestSuperCalculator
     public class LoggerTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void WriteTest()
         {
         }
     }
